@@ -22,6 +22,7 @@ public class Propertyneostoxlaunch
 	{
 		
 		//launch browser by using property file
+		//i add comment for genkin
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shree\\Desktop\\chrome1\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.get(Propertyfilestudy.readdatafrompropertyfile("url"));
