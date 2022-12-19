@@ -20,8 +20,7 @@ public class Propertyneostoxlaunch
 	protected static  WebDriver driver;
 	public void launchapp() throws IOException
 	{
-		
-		//launch browser by using property file
+	
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shree\\Desktop\\chrome1\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.get(Propertyfilestudy.readdatafrompropertyfile("url"));
